@@ -7,6 +7,7 @@ import PageLinks from './components/FooterUI/PageLinks/PageLinks'
 import GettingStarted from './Sections/GetStarted'
 import Stats from './Sections/Stats'
 import Features from './Sections/Features'
+import Divider from './components/UI/Divider/Divider'
 
 export default function Home() {
   return (
@@ -80,8 +81,10 @@ export default function Home() {
         </div>
       </main>
       <Features />
+      <Divider />
       <Stats />
       <GettingStarted />
+      <Divider />
       <Footer>
         <BrandColumn />
         <PageLinks />
