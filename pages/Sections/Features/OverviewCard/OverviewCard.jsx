@@ -6,7 +6,7 @@ const OverviewCard = ({ imageUrl, title, text }) => {
       <div className={classes.icon}>
         <img src={imageUrl} alt='' />
       </div>
-      <div>
+      <div className={classes.txtWrp}>
         <h2 className={classes.title}>{title}</h2>
         <p className={classes.text}>{text}</p>
       </div>

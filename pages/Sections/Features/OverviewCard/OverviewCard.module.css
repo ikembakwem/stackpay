@@ -29,3 +29,21 @@
   line-height: 1.6;
   color: var(--foreground-muted);
 }
+
+@media (max-width: 560px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .icon {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--spacing-3);
+  }
+
+  .txtWrp {
+    text-align: center;
+  }
+}

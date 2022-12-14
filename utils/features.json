@@ -5,18 +5,18 @@
     "text": "Buy and sell popular digital currencies, keep track of them in the one place."
   },
   {
-    "title": "Manage your portfolio",
-    "imageUrl": "/images/bars-icon.svg",
-    "text": "Buy and sell popular digital currencies, keep track of them in the one place."
+    "title": "Recurring buys",
+    "imageUrl": "/images/calendar-icon.svg",
+    "text": "Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly."
   },
   {
-    "title": "Manage your portfolio",
-    "imageUrl": "/images/bars-icon.svg",
-    "text": "Buy and sell popular digital currencies, keep track of them in the one place."
+    "title": "Vault protection",
+    "imageUrl": "/images/lock-icon.svg",
+    "text": "For added security, store your funds in a vault with time delayed withdrawals."
   },
   {
-    "title": "Manage your portfolio",
-    "imageUrl": "/images/bars-icon.svg",
-    "text": "Buy and sell popular digital currencies, keep track of them in the one place."
+    "title": "Mobile apps",
+    "imageUrl": "/images/mobile-icon.svg",
+    "text": "Stay on top of the markets with the Cryptraffic app for Android & iOS."
   }
 ]
