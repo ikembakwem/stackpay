@@ -1,0 +1,12 @@
+.container {
+  overflow: hidden;
+  max-width: 1142px;
+  padding: var(--spacing-3) var(--spacing-7);
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  color: rgb(var(--gray-100));
+}

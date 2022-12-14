@@ -21,7 +21,7 @@
   --green60: 9, 133, 81;
   --red60: 207, 32, 47;
   --background: rgb(var(--gray0));
-  --background-alternate: rgb(var(--gra5));
+  --background-alternate: rgb(var(--gray5));
   --foreground-muted: rgb(var(--gray60));
   --line: rgba(var(--gray60), 0.2);
   --line-heavy: rgba(var(--gray60), 0.68);

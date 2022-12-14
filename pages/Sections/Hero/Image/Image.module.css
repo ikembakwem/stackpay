@@ -1,0 +1,7 @@
+.container {
+  flex: 2 1 0%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--spacing-5);
+  padding-left: var(--spacing-3);
+}
