@@ -1,0 +1,13 @@
+.wrapper {
+  justify-content: center;
+  color: var(--primary-foreground);
+  margin: var(--spacing-5) 0px;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 560px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

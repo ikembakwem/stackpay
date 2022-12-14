@@ -5,8 +5,8 @@ const LanguageSelector = () => {
   return (
     <React.Fragment>
       <select className={classes.slect_form} name='' id=''>
-        <option value='de'>Deutsch</option>
         <option value='en'>English</option>
+        <option value='de'>Deutsch</option>
         <option value='es'>Español - España</option>
         <option value='es-LA'>
           Español - Latinoamérica

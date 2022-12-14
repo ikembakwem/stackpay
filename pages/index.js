@@ -5,6 +5,7 @@ import BrandColumn from './components/FooterUI/BrandColumn/BrandColumn'
 import Footer from './components/FooterUI/Footer/Footer'
 import PageLinks from './components/FooterUI/PageLinks/PageLinks'
 import GettingStarted from './Sections/GetStarted'
+import Stats from './Sections/Stats'
 
 export default function Home() {
   return (
@@ -77,8 +78,8 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <Stats />
       <GettingStarted />
-
       <Footer>
         <BrandColumn />
         <PageLinks />
