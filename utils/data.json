@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Company",
+    "links": [
+      { "id": 1, "href": "#", "name": "Careers" },
+      { "id": 2, "href": "#", "name": "About" },
+      { "id": 3, "href": "#", "name": "Affiliates" },
+      { "id": 4, "href": "#", "name": "Blog" },
+      { "id": 5, "href": "#", "name": "Press" },
+      { "id": 6, "href": "#", "name": "Security" }
+    ]
+  },
+  {
+    "title": "Individuals",
+    "links": [
+      { "id": 1, "href": "#", "name": "By & sell" },
+      { "id": 2, "href": "#", "name": "Earn free crypto" },
+      { "id": 3, "href": "#", "name": "Wallet" },
+      { "id": 4, "href": "#", "name": "NFT" },
+      { "id": 5, "href": "#", "name": "Card" },
+      { "id": 6, "href": "#", "name": "Derivatives" },
+      { "id": 7, "href": "#", "name": "Cryptraffic One" }
+    ]
+  },
+  {
+    "title": "Support",
+    "links": [
+      { "id": 1, "href": "#", "name": "Help center" },
+      { "id": 2, "href": "#", "name": "Contact us" },
+      { "id": 3, "href": "#", "name": "Create account" },
+      { "id": 4, "href": "#", "name": "ID verification" },
+      {
+        "id": 5,
+        "href": "#",
+        "name": "Account information"
+      }
+    ]
+  }
+]

@@ -1,18 +1,17 @@
 import classes from './FooterLinkBlock.module.css'
 
-const FooterLinkBlock = () => {
+const FooterLinkBlock = ({ data }) => {
   return (
     <div className={classes.wrapper}>
       <div>
         <div>
-          <h2 className={classes.title}>Company</h2>
+          <h2 className={classes.title}>{data.title}</h2>
           <ul>
-            <li>Careers</li>
-            <li>About</li>
-            <li>Affiliates</li>
-            <li>Blog</li>
-            <li>Press</li>
-            <li>Security</li>
+            {data.links.map(link => (
+              <li key={link.id}>
+                <a href={link.href}>{link.name}</a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
