@@ -6,6 +6,7 @@ import Footer from './components/FooterUI/Footer/Footer'
 import PageLinks from './components/FooterUI/PageLinks/PageLinks'
 import GettingStarted from './Sections/GetStarted'
 import Stats from './Sections/Stats'
+import Features from './Sections/Features'
 
 export default function Home() {
   return (
@@ -78,6 +79,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <Features />
       <Stats />
       <GettingStarted />
       <Footer>

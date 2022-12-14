@@ -1,0 +1,15 @@
+.title {
+  margin: 0;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+  margin-bottom: var(--spacing-1);
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--foreground);
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--foreground-muted);
+  text-align: center;
+}
