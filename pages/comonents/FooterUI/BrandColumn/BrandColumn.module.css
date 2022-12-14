@@ -1,0 +1,11 @@
+.wrapper {
+  padding-bottom: var(--spacing-4);
+}
+
+.inner_wrapper {
+  max-width: 200px;
+}
+
+.mb_3 {
+  margin-bottom: var(--spacing-3);
+}

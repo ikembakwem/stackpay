@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 100px 24px;
+  color: rgb(var(--gray-0));
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  background: rgb(var(--gray0));
+  color: rgb(var(--gray0));
+}
+
+.w_full {
+  width: 100%;
+}

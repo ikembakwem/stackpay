@@ -1,0 +1,7 @@
+.select_form {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgb(var(--gray-0));
+  border: 1px solid rgb(var(--gray-5));
+  text-transform: none;
+}
