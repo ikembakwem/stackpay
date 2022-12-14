@@ -2,7 +2,7 @@
   text-align: center;
 }
 .icon_wrapper {
-  max-height: 65px;
+  min-height: 65px;
 }
 
 .step_title {
