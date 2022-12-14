@@ -1,0 +1,6 @@
+.line {
+  flex: 1;
+  height: 1px;
+  margin-top: var(--spacing-5);
+  background-color: var(--line-heavy);
+}

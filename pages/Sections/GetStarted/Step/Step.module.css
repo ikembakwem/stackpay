@@ -1,0 +1,14 @@
+.step {
+  text-align: center;
+}
+.icon_wrapper {
+  max-height: 65px;
+}
+
+.step_title {
+  margin-top: var(--spacing-4);
+  margin-bottom: var(--spacing-2);
+  font-size: 20px;
+  color: var(--foreground);
+  font-weight: 600;
+}

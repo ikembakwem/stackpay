@@ -1,0 +1,8 @@
+.subtitle {
+  margin-top: var(--spacing-2);
+  line-height: 28px;
+  font-size: 16px;
+  color: var(--foreground-muted);
+  opacity: 0.7;
+  font-weight: 500;
+}

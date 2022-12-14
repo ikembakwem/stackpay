@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import BrandColumn from './comonents/FooterUI/BrandColumn/BrandColumn'
-import Footer from './comonents/FooterUI/Footer/Footer'
-import PageLinks from './comonents/FooterUI/PageLinks/PageLinks'
+import BrandColumn from './components/FooterUI/BrandColumn/BrandColumn'
+import Footer from './components/FooterUI/Footer/Footer'
+import PageLinks from './components/FooterUI/PageLinks/PageLinks'
+import GettingStarted from './components/Sections/GetStarted'
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <GettingStarted />
 
       <Footer>
         <BrandColumn />

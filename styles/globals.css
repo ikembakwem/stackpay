@@ -20,15 +20,15 @@
   --green50: 18, 153, 97;
   --green60: 9, 133, 81;
   --red60: 207, 32, 47;
-  --background: rgb(var(--gray-0));
-  --background-alternate: rgb(var(--gray-5));
-  --foreground-muted: rgb(var(--gray-60));
-  --line: rgba(var(--gray-60), 0.2);
-  --line-heavy: rgba(var(--gray-60), 0.68);
+  --background: rgb(var(--gray0));
+  --background-alternate: rgb(var(--gra5));
+  --foreground-muted: rgb(var(--gray60));
+  --line: rgba(var(--gray60), 0.2);
+  --line-heavy: rgba(var(--gray60), 0.68);
   --negative: rgb(var(--red60));
   --positive: rgb(var(--green60));
-  --primary: rgb(var(--blue-60));
-  --primary-foreground: rgb(var(--gray-0));
+  --primary: rgb(var(--blue60));
+  --primary-foreground: rgb(var(--gray0));
 }
 
 html,
@@ -48,6 +48,8 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 button,
