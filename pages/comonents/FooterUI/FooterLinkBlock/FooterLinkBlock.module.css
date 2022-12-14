@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  padding: 0 var(--spacing-1) var(--spacing-3);
+  padding-bottom: var(--spacing-3);
   color: black;
 }
 
