@@ -1,9 +1,9 @@
 import classes from './index.module.css'
-import Container from '../../UI/Container/Container'
+import Container from '../../components/UI/Container/Container'
 import SectionTitle from './SectionTitle/SectionTitle'
 import SectionSubtitle from './SectionSubtitle/SectionSubtitle'
 import Step from './Step/Step'
-import Line from '../../UI/Line/Line'
+import Line from '../../components/UI/Line/Line'
 
 const GettingStarted = () => {
   return (

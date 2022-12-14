@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import BrandColumn from './components/FooterUI/BrandColumn/BrandColumn'
 import Footer from './components/FooterUI/Footer/Footer'
 import PageLinks from './components/FooterUI/PageLinks/PageLinks'
-import GettingStarted from './components/Sections/GetStarted'
+import GettingStarted from './Sections/GetStarted'
 
 export default function Home() {
   return (
