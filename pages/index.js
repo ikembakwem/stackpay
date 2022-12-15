@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import BrandColumn from './components/FooterUI/BrandColumn/BrandColumn'
-import Footer from './components/FooterUI/Footer/Footer'
-import PageLinks from './components/FooterUI/PageLinks/PageLinks'
+import Footer from './Sections/Footer'
 import GettingStarted from './Sections/GetStarted'
 import Stats from './Sections/Stats'
 import Features from './Sections/Features'
@@ -19,6 +17,7 @@ export default function Home() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <header></header>
       <main>
         <Hero />
         <Features />
@@ -27,10 +26,7 @@ export default function Home() {
         <GettingStarted />
         <Divider />
       </main>
-      <Footer>
-        <BrandColumn />
-        <PageLinks />
-      </Footer>
+      <Footer />
     </>
   )
 }

@@ -1,7 +1,7 @@
 import classes from './BrandColumn.module.css'
-import Logo from '../../Logo/Logo'
 import LanguageSelector from '../LanguageSelector/LanguageSelector'
 import BrandInfo from '../BrandInfo/BrandInfo'
+import Logo from '../../../components/Logo/Logo'
 
 const BrandColumn = () => {
   return (
