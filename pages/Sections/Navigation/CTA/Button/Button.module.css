@@ -14,3 +14,14 @@
   border-radius: 4px;
   border: 1px solid var(--primary);
 }
+
+.sec_label:hover {
+  color: var(--primary);
+  opacity: 0.8;
+}
+
+.btn:hover {
+  background-color: rgb(10, 70, 228);
+  border: 1px solid transparent;
+  transition: background-color 0.25s ease 0;
+}
