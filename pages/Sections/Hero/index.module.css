@@ -10,3 +10,10 @@
   align-items: center;
   color: rgb(var(--gray-100));
 }
+
+@media (max-width: 560px) {
+  .container {
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+  }
+}

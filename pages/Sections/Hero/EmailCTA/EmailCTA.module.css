@@ -73,3 +73,14 @@
     width: 100%;
   }
 }
+
+@media (max-width: 560px) {
+  .form_cta {
+    flex-direction: column;
+  }
+
+  .btn_wrapper {
+    margin-top: var(--spacing-2);
+    margin-left: var(--spacing-0);
+  }
+}
