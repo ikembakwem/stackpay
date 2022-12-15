@@ -5,6 +5,7 @@ import Stats from './Sections/Stats'
 import Features from './Sections/Features'
 import Divider from './components/UI/Divider/Divider'
 import Hero from './Sections/Hero'
+import Navigation from './Sections/Navigation'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <header></header>
+      <Navigation />
       <main>
         <Hero />
         <Features />

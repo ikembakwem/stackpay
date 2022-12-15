@@ -1,0 +1,16 @@
+.sec_label {
+  padding: var(--spacing-2);
+  opacity: 1;
+  transition: color 0.15s ease-out;
+}
+
+.btn {
+  padding: 10px 12px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 14px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+}

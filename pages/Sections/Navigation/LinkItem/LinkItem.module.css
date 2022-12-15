@@ -1,0 +1,8 @@
+.item {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 18px;
+  line-height: 16px;
+  border-bottom: 4px solid transparent;
+}
