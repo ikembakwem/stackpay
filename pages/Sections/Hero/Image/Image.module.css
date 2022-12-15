@@ -6,3 +6,9 @@
   padding-left: var(--spacing-3);
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: none;
+  }
+}
