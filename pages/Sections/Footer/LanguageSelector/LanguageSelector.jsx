@@ -4,7 +4,7 @@ import classes from './LanguageSelector.module.css'
 const LanguageSelector = () => {
   return (
     <React.Fragment>
-      <select className={classes.slect_form} name='' id=''>
+      <select className={classes.select_form} name='' id=''>
         <option value='en'>English</option>
         <option value='de'>Deutsch</option>
         <option value='es'>Español - España</option>

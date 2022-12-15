@@ -6,3 +6,9 @@
   gap: 8px;
   cursor: pointer;
 }
+
+.pill:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: text-decoration 0.33s ease;
+}

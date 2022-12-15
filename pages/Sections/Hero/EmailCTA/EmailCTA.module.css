@@ -48,6 +48,11 @@
   transition: all 80ms ease-in-out;
 }
 
+.btn:hover {
+  background-color: rgb(var(--blue70));
+  border-color: rgb(var(--blue70));
+}
+
 .btn_content {
   display: flex;
   align-items: center;

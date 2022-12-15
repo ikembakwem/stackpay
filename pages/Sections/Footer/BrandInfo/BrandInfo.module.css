@@ -22,3 +22,9 @@
   color: #113355;
   text-decoration: none;
 }
+
+.brand_link:hover {
+  color: rgb(var(--blue70));
+  transition: color ease 0.25s;
+  text-decoration: underline;
+}
