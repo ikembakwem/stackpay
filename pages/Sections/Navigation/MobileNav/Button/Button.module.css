@@ -21,3 +21,16 @@
   transition: background-color 0.25s ease 0;
   color: #fff;
 }
+
+.btn:active {
+  background-color: rgb(10, 14, 228);
+  color: #fff;
+}
+
+.secondary:active {
+  background-color: rgb(231, 220, 220);
+}
+
+.secondary:hover {
+  background-color: #fff;
+}

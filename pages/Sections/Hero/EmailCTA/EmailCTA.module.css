@@ -53,6 +53,11 @@
   border-color: rgb(var(--blue70));
 }
 
+.btn:active {
+  background-color: rgb(10, 14, 228);
+  color: #fff;
+}
+
 .btn_content {
   display: flex;
   align-items: center;

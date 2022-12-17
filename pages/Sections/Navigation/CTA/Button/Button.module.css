@@ -26,6 +26,11 @@
   transition: background-color 0.25s ease 0;
 }
 
+.btn:active {
+  background-color: rgb(10, 14, 228);
+  color: #fff;
+}
+
 @media (max-width: 946px) {
   .sec_label {
     display: none;
