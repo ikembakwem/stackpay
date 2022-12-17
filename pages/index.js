@@ -6,6 +6,7 @@ import Features from './Sections/Features'
 import Divider from './components/UI/Divider/Divider'
 import Hero from './Sections/Hero'
 import Navigation from './Sections/Navigation'
+import Overview from './Sections/Overview'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Features />
         <Divider />
         <Stats />
+        <Overview />
         <GettingStarted />
         <Divider />
       </main>

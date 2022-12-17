@@ -1,14 +1,18 @@
-import Copy from './Copy/Copy'
-import Image from './Image/Image'
-import classes from './index.module.css'
+import Copy from './Copy/Copy';
+import Image from './Image/Image';
+import classes from './index.module.css';
 
-const Hero = () => (
-  <section className={classes.container}>
-    <div className={classes.content}>
-      <Copy />
-      <Image />
-    </div>
-  </section>
-)
+const Hero = () => {
+  return (
+    <section className={classes.container}>
+      <div className={classes.content}>
+        <Copy />
+        <div className={classes.img_wrapper}>
+          <Image />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;

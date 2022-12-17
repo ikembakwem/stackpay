@@ -1,6 +1,6 @@
-import LinkItem from '../LinkItem/LinkItem'
-import classes from './NavMenu.module.css'
-import data from '../../../../utils/links.json'
+import LinkItem from '../LinkItem/LinkItem';
+import classes from './NavMenu.module.css';
+import data from '../../../../utils/links.json';
 
 const NavMenu = () => {
   return (
@@ -13,7 +13,7 @@ const NavMenu = () => {
         />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default NavMenu
+export default NavMenu;

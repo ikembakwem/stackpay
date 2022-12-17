@@ -1,14 +1,5 @@
-.container {
-  flex: 2 1 0%;
-  display: flex;
-  justify-content: flex-end;
-  padding-top: var(--spacing-5);
-  padding-left: var(--spacing-3);
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-  .container {
-    display: none;
-  }
+.image {
+  max-width: 526px;
+  max-height: 534px;
+  object-fit: cover;
 }

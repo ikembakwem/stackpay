@@ -1,0 +1,23 @@
+.btn {
+  display: block;
+  padding: var(--spacing-3);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: var(--primary);
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  font-size: 18px;
+}
+
+.secondary {
+  background-color: #fff;
+  color: var(--primary);
+}
+
+.btn:hover {
+  background-color: rgb(10, 70, 228);
+  border: 2px solid transparent;
+  transition: background-color 0.25s ease 0;
+  color: #fff;
+}

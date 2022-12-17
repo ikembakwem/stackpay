@@ -1,17 +1,15 @@
 .title {
-  margin: 0;
-  margin-bottom: 0px;
-  margin-bottom: 0px;
-  margin-bottom: var(--spacing-1);
+  margin-top: 0px;
+  margin-bottom: var(--spacing-3);
+  line-height: 1.15;
   font-size: 40px;
-  font-weight: 600;
   color: var(--foreground);
-  text-align: center;
+  font-weight: 600;
 }
 
 .subtitle {
+  font-size: 18px;
   color: var(--foreground-muted);
-  text-align: center;
 }
 
 @media (max-width: 560px) {

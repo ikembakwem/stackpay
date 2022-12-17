@@ -1,0 +1,29 @@
+.nav__wrapper {
+  display: none;
+}
+
+.menu__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--spacing-2);
+  gap: var(--spacing-2);
+  max-width: 420px;
+}
+
+@media (max-width: 640px) {
+  .cta__wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 946px) {
+  .nav__wrapper {
+    display: flex;
+    align-items: center;
+  }
+}

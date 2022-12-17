@@ -1,13 +1,11 @@
-import classes from './Image.module.css'
+import classes from './Image.module.css';
 
 const Image = () => (
-  <div className={classes.container}>
-    <img
-      src='/images/feature-img.webp'
-      alt=''
-      style={{ width: '100%' }}
-    />
-  </div>
-)
+  <img
+    className={classes.image}
+    src='/images/feature-img.webp'
+    alt=''
+  />
+);
 
-export default Image
+export default Image;

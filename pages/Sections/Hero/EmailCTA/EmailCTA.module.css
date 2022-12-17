@@ -79,6 +79,15 @@
     flex-direction: column;
   }
 
+  .btn {
+    padding: 16px;
+  }
+
+  .email_wrapper input {
+    padding: 12px;
+    font-size: 16px;
+  }
+
   .btn_wrapper {
     margin-top: var(--spacing-2);
     margin-left: var(--spacing-0);
