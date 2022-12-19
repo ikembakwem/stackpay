@@ -1,6 +1,6 @@
 import classes from './Button.module.css';
 
-export const Primary = () => (
+const Primary = () => (
   <button className={classes.btn}>Get started</button>
 );
 
@@ -9,3 +9,5 @@ export const Secondary = () => (
     Login
   </button>
 );
+
+export default Primary;

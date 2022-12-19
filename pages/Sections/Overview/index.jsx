@@ -1,7 +1,7 @@
 import Container from '../../components/UI/Container/Container';
 import Card from './Card/Card';
 import classes from './index.module.css';
-import { Subtitle, Title } from './Typography/Typography';
+import Title, { Subtitle } from './Typography/Typography';
 import data from '../../../utils/overview.json';
 
 const Overview = () => (

@@ -1,4 +1,4 @@
-import { Primary, Secondary } from './Button/Button';
+import Primary, { Secondary } from './Button/Button';
 import Dropdown from './Dropdown/Dropdown';
 import classes from './index.module.css';
 import MenuItem from './MenuItem/MenuItem';

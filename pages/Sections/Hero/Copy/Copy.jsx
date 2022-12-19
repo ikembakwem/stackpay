@@ -1,10 +1,9 @@
-import classes from './Copy.module.css'
-import Pill from '../Pill/Pill'
-import {
-  HeroSubtitle,
-  HeroTitle
-} from '../Typography/Typography'
-import EmailCTA from '../EmailCTA/EmailCTA'
+import classes from './Copy.module.css';
+import Pill from '../Pill/Pill';
+import HeroTitle, {
+  HeroSubtitle
+} from '../Typography/Typography';
+import EmailCTA from '../EmailCTA/EmailCTA';
 
 const Copy = () => (
   <div className={classes.left_section}>
@@ -13,6 +12,6 @@ const Copy = () => (
     <HeroSubtitle />
     <EmailCTA />
   </div>
-)
+);
 
-export default Copy
+export default Copy;
