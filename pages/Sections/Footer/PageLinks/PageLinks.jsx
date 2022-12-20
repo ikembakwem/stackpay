@@ -1,15 +1,12 @@
-import FooterLinkBlock from '../FooterLinkBlock/FooterLinkBlock'
-import classes from './PageLinks.module.css'
-import data from '../../../../utils/data.json'
+import FooterLinkBlock from '../FooterLinkBlock/FooterLinkBlock';
+import classes from './PageLinks.module.css';
 
 const PageLinks = () => {
   return (
     <div className={classes.container}>
-      {data.map(data => (
-        <FooterLinkBlock key={Math.random()} data={data} />
-      ))}
+      <FooterLinkBlock />
     </div>
-  )
-}
+  );
+};
 
-export default PageLinks
+export default PageLinks;

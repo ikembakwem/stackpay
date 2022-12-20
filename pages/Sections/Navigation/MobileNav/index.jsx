@@ -22,13 +22,17 @@ const MobileNav = () => {
         {isOpen && (
           <Dropdown>
             <div className={classes.menu__wrapper}>
-              {data.map(d => (
-                <MenuItem
-                  key={Math.random()}
-                  text={d.linkTitle}
-                  link={d.linkUrl}
-                />
-              ))}
+              {data.map(d => {
+                const { linkTitle, linkUrl } = d;
+
+                return (
+                  <MenuItem
+                    key={Math.random()}
+                    text={linkTitle}
+                    link={linkUrl}
+                  />
+                );
+              })}
               <div className={classes.cta__wrapper}>
                 <Primary />
                 <Secondary />
