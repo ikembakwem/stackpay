@@ -2,7 +2,7 @@ import Primary, { Secondary } from './Button/Button';
 import Dropdown from './Dropdown/Dropdown';
 import classes from './index.module.css';
 import MenuItem from './MenuItem/MenuItem';
-import data from '../../../../utils/links.json';
+import data from '../../../utils/links.json';
 import { useState } from 'react';
 
 const MobileNav = () => {

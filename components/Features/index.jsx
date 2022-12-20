@@ -1,8 +1,8 @@
-import classes from './index.module.css'
-import Container from '../../components/UI/Container/Container'
-import Overview from './Overview/Overview'
-import OverviewCard from './OverviewCard/OverviewCard'
-import data from '../../../utils/features.json'
+import classes from './index.module.css';
+import Container from '../components/UI/Container/Container';
+import Overview from './Overview/Overview';
+import OverviewCard from './OverviewCard/OverviewCard';
+import data from '../../utils/features.json';
 
 const Features = () => {
   return (
@@ -32,7 +32,7 @@ const Features = () => {
         </div>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;

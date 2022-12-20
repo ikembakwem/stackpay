@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Footer from './Sections/Footer'
-import GettingStarted from './Sections/GetStarted'
-import Stats from './Sections/Stats'
-import Features from './Sections/Features'
-import Divider from './components/UI/Divider/Divider'
-import Hero from './Sections/Hero'
-import Navigation from './Sections/Navigation'
-import Overview from './Sections/Overview'
+import Head from 'next/head';
+import Footer from '../components/Footer';
+import GettingStarted from '../components/GetStarted';
+import Stats from '../components/Stats';
+import Features from '../components/Features';
+import Divider from '../components/components/UI/Divider/Divider';
+import Hero from '../components/Hero';
+import Navigation from '../components/Navigation';
+import Overview from '../components/Overview';
 
 export default function Home() {
   return (
@@ -31,5 +31,5 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  )
+  );
 }

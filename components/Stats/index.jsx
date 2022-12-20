@@ -1,7 +1,7 @@
-import classes from './index.module.css'
-import Backdrop from '../../components/UI/Backdrop/Backdrop'
-import Container from '../../components/UI/Container/Container'
-import Stat from './Stat/Stat'
+import classes from './index.module.css';
+import Backdrop from '../components/UI/Backdrop/Backdrop';
+import Stat from './Stat/Stat';
+import Container from '../components/UI/Container/Container';
 
 const Stats = () => {
   return (
@@ -23,7 +23,7 @@ const Stats = () => {
         </div>
       </Container>
     </Backdrop>
-  )
-}
+  );
+};
 
-export default Stats
+export default Stats;

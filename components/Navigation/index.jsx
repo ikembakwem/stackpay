@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from '../../components/Logo/Logo';
+import Logo from '../components/Logo/Logo';
 import CTA from './CTA/CTA';
 import classes from './index.module.css';
 import MobileNav from './MobileNav';

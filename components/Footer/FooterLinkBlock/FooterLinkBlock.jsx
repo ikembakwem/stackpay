@@ -1,5 +1,5 @@
 import classes from './FooterLinkBlock.module.css';
-import data from '../../../../utils/data.json';
+import data from '../../../utils/data.json';
 import React from 'react';
 
 const FooterLinkBlock = () => {

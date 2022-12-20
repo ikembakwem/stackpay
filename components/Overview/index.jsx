@@ -1,8 +1,8 @@
-import Container from '../../components/UI/Container/Container';
+import Container from '../components/UI/Container/Container';
 import Card from './Card/Card';
 import classes from './index.module.css';
 import Title, { Subtitle } from './Typography/Typography';
-import data from '../../../utils/overview.json';
+import data from '../../utils/overview.json';
 
 const Overview = () => (
   <section>

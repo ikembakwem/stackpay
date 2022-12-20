@@ -1,7 +1,7 @@
-import classes from './BrandColumn.module.css'
-import LanguageSelector from '../LanguageSelector/LanguageSelector'
-import BrandInfo from '../BrandInfo/BrandInfo'
-import Logo from '../../../components/Logo/Logo'
+import classes from './BrandColumn.module.css';
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
+import BrandInfo from '../BrandInfo/BrandInfo';
+import Logo from '../../components/Logo/Logo';
 
 const BrandColumn = () => {
   return (
@@ -13,7 +13,7 @@ const BrandColumn = () => {
         <BrandInfo />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BrandColumn
+export default BrandColumn;

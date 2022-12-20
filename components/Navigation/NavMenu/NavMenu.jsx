@@ -1,6 +1,6 @@
 import LinkItem from '../LinkItem/LinkItem';
 import classes from './NavMenu.module.css';
-import data from '../../../../utils/links.json';
+import data from '../../../utils/links.json';
 
 const NavMenu = () => {
   return (
